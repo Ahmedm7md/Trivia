@@ -1,0 +1,118 @@
+*{
+    text-align: center;
+}
+
+#title{
+    background-color: darkslateblue;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    border-radius: 50px;
+    padding-top: 20px;
+}
+#start{
+    background-color: lightseagreen;
+    margin-left: 30%;margin-right: 30%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#startContent{
+    position: relative;top: 80px;
+}
+
+#input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+#startBtn{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+#game{
+    background-color: lightseagreen;
+    margin-left: 30%;margin-right: 30%;
+    height: 300px;
+    border-radius: 10px;
+    height: fit-content;
+    min-height: 350px;
+}
+#prompt{
+    color: white;
+}
+
+#gameBtns{
+    display: flex;
+    flex-flow: column;
+    width: 200px;
+    position: relative;left: 65px;
+}
+
+.gameBtn{
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    width: 300px;
+}
+.gameBtn:hover{
+    transform: scale(1.05);
+}
+
+#next{
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    width: 300px;
+    font-weight: bold;
+}
+
+#next:hover{
+    transform: scale(1.05);
+}
+
+#finsh{
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    width: 300px;
+    font-weight: bold;
+}
+#finsh:hover{
+    transform: scale(1.05);
+}
+
+#finished{
+    background-color: lightseagreen;
+    margin-left: 30%;margin-right: 30%;
+    height: 300px;
+    border-radius: 10px;
+    height: fit-content;
+    min-height: 350px;
+}
+
+.done{
+    position: relative;top: 60px;
+}
+
+#restart{
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    width: 300px;
+    position: relative;top: 80px;
+}
+#restart:hover{
+    transform: scale(1.05);
+}
